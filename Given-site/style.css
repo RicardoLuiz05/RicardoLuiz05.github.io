@@ -1,0 +1,303 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  color:whitesmoke;
+  font-family: 'Varela Round', sans-serif;
+  background-color: rgb(35, 29, 46);
+}
+
+div.titulo{
+  height:500px;
+  width: 100%;
+  margin: 0px;
+    background-image: url(img/capa_given.jpg);
+    background-size: cover;
+    background-position: center;
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+  opacity: 0.7;
+  transition: 1s;
+}
+div.titulo:hover{
+  opacity: 2;
+}
+h1{
+  text-align: center;
+  font-size: 5em;
+  /* opacity: 2; */
+}
+
+p.texto_titulo{
+  width:100%;
+  background-color: rgb(35, 29, 46);
+  text-align: center;
+}
+h2{
+  margin-left:15px;
+  font-size: 2.5em;
+}
+h3{
+  margin-left:15px;
+  font-size:2em;
+}
+h4{
+  font-size: 25px;
+}
+/*sinopse*/
+.intro{
+display:flex; 
+flex-direction:row;
+}
+.sinopse{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Musicas{
+  height: 300px;
+  width: 300px;
+}
+.Musica{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.spotify{
+  width: 150px;
+  margin-bottom: 5px;
+}
+
+/* ACESSOS */
+.Acesso{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.acesso_m{
+  margin-right: 10px;
+    filter: blur(1.3px);
+    transition: filter 0.3s;
+}
+.acesso_m:hover{
+  filter: blur(0px);
+}
+.acesso_u{
+  margin-right: 10px;
+    filter: blur(1.3px);
+    transition: filter 0.3s;
+}
+.acesso_u:hover{
+  filter: blur(0px);
+}
+.acesso_h{
+  margin-right: 10px;
+    filter: blur(1.3px);
+    transition: filter 0.3s;
+}
+.acesso_h:hover{
+  filter: blur(0px);
+}
+.acesso_a{
+  margin-right: 10px;
+    filter: blur(1.3px);
+    transition: filter 0.3s;
+}
+.acesso_a:hover{
+  filter: blur(0px);
+}
+.acesso_ug{
+  margin-right: 10px;
+    filter: blur(1.3px);
+    transition: filter 0.3s;
+}
+.acesso_ug:hover{
+  filter: blur(0px);
+}
+/* Mafuyu Sato*/
+.Mafuyu_Sato{
+  margin-top: 20px;
+  display:flex;
+  flex-direction:row;
+}
+#foto_mafuyu{
+  width:20%;
+  height: 500px;
+  margin-right:20px;
+    /* background-image: url(img/mafuyu_sato.png); */
+    background-size: cover;
+ 
+}
+.conteudo_mafuyu{
+  height:400px;
+  width: 80%;
+}
+.fundo_mafuyu{
+  width:100%;
+  padding-top:20px;
+  padding-bottom:20px;
+    background-image: url(img/fundo_mafuyu.jpg);
+    background-size: cover;
+    background-position: center;
+  opacity: 0.7;
+  transition: opacity 1s;
+  will-change: opacity;
+  
+}
+.fundo_mafuyu:hover{
+  opacity: 1;
+}
+
+
+/* Ritsuka Uenoyama */
+.Ritsuka_Uenoyama{
+  margin-top: 20px;
+  display:flex;
+  flex-direction:row;
+}
+#foto_uenoyama{
+  width:20%;
+  height: 500px;
+  margin-right:20px;
+    /* background-image: url(img/ritsuka_uenoyama.png); */
+    background-size: cover;
+ 
+}
+.conteudo_uenoyama{
+  height:400px;
+  width: 80%;
+}
+.fundo_uenoyama{
+  width:100%;
+  padding-top:20px;
+  padding-bottom:20px;
+    background-image: url(img/fundo_uenoyama.jpg);
+    background-size: cover;
+    background-position: center;
+  opacity: 0.7;
+  transition: opacity 1s;
+  will-change: opacity;
+  
+}
+.fundo_uenoyama:hover{
+  opacity: 1;
+}
+
+/* Nakayama Haruki */
+.Nakayama_Haruki{
+  margin-top: 20px;
+  display:flex;
+  flex-direction:row;
+}
+#foto_haruki{
+  width:20%;
+  height: 500px;
+  margin-right:20px;
+    /* background-image: url(img/ritsuka_uenoyama.png); */
+    background-size: cover;
+ 
+}
+.conteudo_haruki{
+  height:400px;
+  width: 80%;
+}
+.fundo_haruki{
+  width:100%;
+  padding-top:20px;
+  padding-bottom:20px;
+    background-image: url(img/fundo_haruki.jpg);
+    background-size: cover;
+    background-position: center;
+  opacity: 0.7;
+  transition: opacity 1s;
+  will-change: opacity;
+  
+}
+.fundo_haruki:hover{
+  opacity: 1;
+}
+
+/*Akihiko Kaji*/
+.Akihiko_Kaji{
+  margin-top: 20px;
+  display:flex;
+  flex-direction:row;
+}
+#foto_akihiko{
+  width:20%;
+  height: 500px;
+  margin-right:20px;
+    /* background-image: url(img/ritsuka_uenoyama.png); */
+    background-size: cover;
+ 
+}
+.conteudo_akihiko{
+  height:400px;
+  width: 80%;
+}
+.fundo_akihiko{
+  width:100%;
+  padding-top:20px;
+  padding-bottom:20px;
+    background-image: url(img/fundo_akihiko.jpg);
+    background-size: cover;
+    background-position: center;
+  opacity: 0.7;
+  transition: opacity 1s;
+  will-change: opacity;
+  
+}
+.fundo_akihiko:hover{
+  opacity: 1;
+}
+
+/*Ugetsu Murata*/
+.Ugetsu_Murata{
+  margin-top: 20px;
+  display:flex;
+  flex-direction:row;
+}
+#foto_ugetsu{
+  width:20%;
+  height: 500px;
+  margin-right:20px;
+    /* background-image: url(img/ritsuka_uenoyama.png); */
+    background-size: cover;
+ 
+}
+.conteudo_ugetsu{
+  height:400px;
+  width: 80%;
+}
+.fundo_ugetsu{
+  width:100%;
+  padding-top:20px;
+  padding-bottom:20px;
+    background-image: url(img/fundo_ugetsu.jpg);
+    background-size: cover;
+    background-position: center;
+  opacity: 0.7;
+  transition: opacity 1s;
+  will-change: opacity;
+  
+}
+.fundo_ugetsu:hover{
+  opacity: 1;
+}
+
+
+@media (max-width: 913px){
+  .intro{
+    display:flex; 
+    flex-direction:column;
+  }
+  #foto_uenoyama{
+    height:none;
+    width: none;
+    background: none;
+  }
+}
