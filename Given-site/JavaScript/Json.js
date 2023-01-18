@@ -1,8 +1,8 @@
 const personagens = [{
     class: 'Mafuyu_Sato',
     id: 'foto_mafuyu',
-    imgP: 'img/personagens/mafuyu_sato.jpg',
-    imgF: 'img/fundo_mafuyu.jpg',
+    imgP: 'Given-site/img/personagens/mafuyu_sato.jpg',
+    imgF: 'Given-site/img/fundo_mafuyu.jpg',
     conteudo: 'conteudo_mafuyu',
     fundo:'fundo mafuyu',
     nome:'Mafuyu Sato',
@@ -11,7 +11,7 @@ const personagens = [{
 {
     class: 'Ritsuka_Uenoyama',
     id: 'foto_uenoyama',
-    imgP: 'img/personagens/ritsuka_uenoyama.png',
+    imgP: 'Given-site/img/personagens/ritsuka_uenoyama.png',
     conteudo: 'conteudo_uenoyama',
     fundo:'fundo uenoyama',
     nome:'Ritsuka Uenoyama',
@@ -20,7 +20,7 @@ const personagens = [{
 {
     class: 'Nakayama_Haruki',
     id: 'foto_haruki',
-    imgP: 'img/personagens/nakayama_haruki.jpg',
+    imgP: 'Given-site/img/personagens/nakayama_haruki.jpg',
     conteudo: 'conteudo_haruki',
     fundo:'fundo haruki',
     nome:'Nakayama Haruki',
@@ -29,7 +29,7 @@ const personagens = [{
 {
     class: 'Akihiko_Kaji',
     id: 'foto_akihiko',
-    imgP: 'img/personagens/akihiko_kaji.jpg',
+    imgP: 'Given-site/img/personagens/akihiko_kaji.jpg',
     conteudo: 'conteudo_akihiko',
     fundo:'fundo akihiko',
     nome:'Akihiko Kaji',
@@ -38,7 +38,7 @@ const personagens = [{
 {
     class: 'Ugetsu_Murata',
     id: 'foto_ugetsu',
-    imgP: 'img/personagens/ugetsu_murata.jpg',
+    imgP: 'Given-site/img/personagens/ugetsu_murata.jpg',
     conteudo: 'conteudo_ugetsu',
     fundo:'fundo ugetsu',
     nome:'Ugetsu Murata',
