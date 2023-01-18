@@ -291,7 +291,8 @@ flex-direction:row;
     width: 0px;
   }
   #foto_uenoyama{
-    display: none;
+    width: 0px;
+    height: 0px;
   }
   .uenoyama{
     width: 100%;
@@ -303,7 +304,8 @@ flex-direction:row;
     }
 
     #foto_mafuyu{
-      display: none;
+      width: 0px;
+      height: 0px;
     }
     .mafuyu{
       width: 100%;
