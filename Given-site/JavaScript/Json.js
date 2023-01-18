@@ -4,16 +4,16 @@ const personagens = [{
     imgP: 'img/personagens/mafuyu_sato.jpg',
     imgF: 'img/fundo_mafuyu.jpg',
     conteudo: 'conteudo_mafuyu',
-    fundo:'fundo_mafuyu',
+    fundo:'fundo mafuyu',
     nome:'Mafuyu Sato',
-    texto: '<il><ul>Kaji: 佐藤 真冬</ul><ul>Altura: 173cm</ul><ul>Aniversário: 28 de fevereiro</ul><ul>Tipo sanguíneo: AB</ul><ul>Habilidade: vocalista, guitarrista</ul><ul>Dublador: Yano Shougo</ul></il><p>Mafuyu é um dos protagonistas do anime, sua história começa com ele encontrando um garoto sonolento em uma escada, </p>'
+    texto: '<il><ul>Kaji: 佐藤 真冬</ul><ul>Altura: 173cm</ul><ul>Aniversário: 28 de fevereiro</ul><ul>Tipo sanguíneo: AB</ul><ul>Habilidade: vocalista, guitarrista</ul><ul>Dublador: Yano Shougo</ul></il><p class="infos">Mafuyu é um dos protagonistas do anime, sua história começa com ele encontrando um garoto sonolento em uma escada, </p>'
 },
 {
     class: 'Ritsuka_Uenoyama',
     id: 'foto_uenoyama',
     imgP: 'img/personagens/ritsuka_uenoyama.png',
     conteudo: 'conteudo_uenoyama',
-    fundo:'fundo_uenoyama',
+    fundo:'fundo uenoyama',
     nome:'Ritsuka Uenoyama',
     texto: '<il><ul>Kaji: 上ノ山 立夏</ul><ul>Altura: 175cm</ul><ul>Aniversário: 1 de agosto</ul><ul>Tipo sanguíneo: B</ul><ul>Habilidade: guitarrista</ul><ul>Dublador: Uchida Yuuma</ul></il><p>Mafuyu é um dos protagonistas do anime, sua história começa com ele encontrando um garoto sonolento em uma escada, </p>'
 },
@@ -22,7 +22,7 @@ const personagens = [{
     id: 'foto_haruki',
     imgP: 'img/personagens/nakayama_haruki.jpg',
     conteudo: 'conteudo_haruki',
-    fundo:'fundo_haruki',
+    fundo:'fundo haruki',
     nome:'Nakayama Haruki',
     texto: 'Ainda estou pensando, por favor não me atrapalhe!'
 },
@@ -31,7 +31,7 @@ const personagens = [{
     id: 'foto_akihiko',
     imgP: 'img/personagens/akihiko_kaji.jpg',
     conteudo: 'conteudo_akihiko',
-    fundo:'fundo_akihiko',
+    fundo:'fundo akihiko',
     nome:'Akihiko Kaji',
     texto: 'Ainda estou pensando, por favor não me atrapalhe!'
 },
@@ -40,7 +40,7 @@ const personagens = [{
     id: 'foto_ugetsu',
     imgP: 'img/personagens/ugetsu_murata.jpg',
     conteudo: 'conteudo_ugetsu',
-    fundo:'fundo_ugetsu',
+    fundo:'fundo ugetsu',
     nome:'Ugetsu Murata',
     texto: 'Ainda estou pensando, por favor não me atrapalhe!'
 },
@@ -59,6 +59,5 @@ function forma(personagens){
 
 const Percorredor = personagens.map( (personagens) => forma(personagens)).join('');
 const Container = document.querySelector('#Receber');
-console.log(Percorredor)
 
 Container.innerHTML = Percorredor;

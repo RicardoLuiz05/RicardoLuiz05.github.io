@@ -7,20 +7,21 @@ html, body {
   background-color: rgb(35, 29, 46);
 }
 
-div.titulo{
+.titulo{
   height:500px;
   width: 100%;
   margin: 0px;
     background-image: url(img/capa_given.jpg);
     background-size: cover;
-    background-position: center;
+    background-position-y: -100px ;
+    background-attachment: fixed;
   display: flex;
     justify-content: center;
     flex-direction: column;
   opacity: 0.7;
   transition: 1s;
 }
-div.titulo:hover{
+.titulo:hover{
   opacity: 2;
 }
 h1{
@@ -56,6 +57,10 @@ flex-direction:row;
   align-items: center;
   justify-content: space-evenly;
 }
+.PlayMusicas{
+  width:400px;
+  height: 400px;
+}
 .Musicas{
   height: 300px;
   width: 300px;
@@ -70,6 +75,12 @@ flex-direction:row;
   margin-bottom: 5px;
 }
 
+.info_sinopse{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
 /* ACESSOS */
 .Acesso{
   display: flex;
@@ -118,6 +129,21 @@ flex-direction:row;
 .acesso_ug:hover{
   filter: blur(0px);
 }
+.infos{
+  margin-left:2%;
+}
+
+.fundo{
+  width:100%;
+  padding-top:20px;
+  padding-bottom:20px;
+    background-size: cover;
+    background-position: center;
+  opacity: 0.7;
+  transition: opacity 1s;
+  will-change: opacity;
+
+}
 /* Mafuyu Sato*/
 .Mafuyu_Sato{
   margin-top: 20px;
@@ -136,19 +162,11 @@ flex-direction:row;
   height:400px;
   width: 80%;
 }
-.fundo_mafuyu{
-  width:100%;
-  padding-top:20px;
-  padding-bottom:20px;
+.mafuyu{
     background-image: url(img/fundo_mafuyu.jpg);
-    background-size: cover;
-    background-position: center;
-  opacity: 0.7;
-  transition: opacity 1s;
-  will-change: opacity;
   
 }
-.fundo_mafuyu:hover{
+.mafuyu:hover{
   opacity: 1;
 }
 
@@ -171,19 +189,12 @@ flex-direction:row;
   height:400px;
   width: 80%;
 }
-.fundo_uenoyama{
-  width:100%;
-  padding-top:20px;
-  padding-bottom:20px;
+
+.uenoyama{
     background-image: url(img/fundo_uenoyama.jpg);
-    background-size: cover;
-    background-position: center;
-  opacity: 0.7;
-  transition: opacity 1s;
-  will-change: opacity;
   
 }
-.fundo_uenoyama:hover{
+.uenoyama:hover{
   opacity: 1;
 }
 
@@ -205,19 +216,10 @@ flex-direction:row;
   height:400px;
   width: 80%;
 }
-.fundo_haruki{
-  width:100%;
-  padding-top:20px;
-  padding-bottom:20px;
+.haruki{
     background-image: url(img/fundo_haruki.jpg);
-    background-size: cover;
-    background-position: center;
-  opacity: 0.7;
-  transition: opacity 1s;
-  will-change: opacity;
-  
 }
-.fundo_haruki:hover{
+.haruki:hover{
   opacity: 1;
 }
 
@@ -239,19 +241,10 @@ flex-direction:row;
   height:400px;
   width: 80%;
 }
-.fundo_akihiko{
-  width:100%;
-  padding-top:20px;
-  padding-bottom:20px;
+.akihiko{
     background-image: url(img/fundo_akihiko.jpg);
-    background-size: cover;
-    background-position: center;
-  opacity: 0.7;
-  transition: opacity 1s;
-  will-change: opacity;
-  
 }
-.fundo_akihiko:hover{
+.akihiko:hover{
   opacity: 1;
 }
 
@@ -273,31 +266,51 @@ flex-direction:row;
   height:400px;
   width: 80%;
 }
-.fundo_ugetsu{
-  width:100%;
-  padding-top:20px;
-  padding-bottom:20px;
+.ugetsu{
     background-image: url(img/fundo_ugetsu.jpg);
-    background-size: cover;
-    background-position: center;
-  opacity: 0.7;
-  transition: opacity 1s;
-  will-change: opacity;
-  
 }
-.fundo_ugetsu:hover{
+.ugetsu:hover{
   opacity: 1;
 }
 
 
-@media (max-width: 913px){
+@media (max-width: 980px){
+  .titulo{
+    background-image: url(img/segunda_imagem.jpg);
+    /* background-position: center; */
+  }
   .intro{
     display:flex; 
     flex-direction:column;
   }
-  #foto_uenoyama{
-    height:none;
-    width: none;
-    background: none;
+  .PlayMusicas{
+    width: 310px;
+    height: 310px;
   }
+  .spotify{
+    width: 0px;
+  }
+  #foto_uenoyama{
+    display: none;
+  }
+  .uenoyama{
+    width: 100%;
+  }
+  .Ritsuka_Uenoyama{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    #foto_mafuyu{
+      display: none;
+    }
+    .mafuyu{
+      width: 100%;
+    }
+    .Mafuyu_Sato{
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      }
 }

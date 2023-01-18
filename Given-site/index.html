@@ -5,6 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Sobre Given</title>
+  <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
+  <!-- // Add the new slick-theme.css if you want the default styling -->
+  <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"/>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link  rel =" icon " type =" imagem/png " href ="img/ola.png" >
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,13 +22,14 @@
   <!--font-family: 'Varela Round', sem serifa;-->
   <script src="JavaScript/script.js" defer></script>
   <script src="JavaScript/Json.js" defer></script>
+  
 </head>
 
 <body>
   <!--Titulo-->
   <div class="titulo">
     <h1>Given</h1>
-    <p class="texto_titulo">Criarei uma ficha com características e curiosidades sobre os personagens do anime Given.</p>
+    <p class="texto_titulo">Bem-vindo ao site mais chavoso de given</p>
   </div>
   <div class="intro">
     <div class="sinopse">
@@ -41,14 +45,22 @@
 
     <!--CARROSSEL -->
     <h2>Músicas</h2>
-      <div class="carrossel">
-        <a href="https://www.youtube.com/watch?v=cn3Ao7lprkQ&ab_channel=YANA" style="text-decoration: none; color: whitesmoke">
-          <div class="Musica" ><img src="musics/capa rosa.jpg" class="Musicas"><p>Youru ga Akeru</p><img src="musics/spot.png" class="spotify"></div></a>
-        <a href="https://www.youtube.com/watch?v=UXjoipMzBcc&ab_channel=%E6%B6%99arakida" style="text-decoration: none; color: whitesmoke">
-          <div class="Musica"><img src="musics/fuyohanashi.jpg" class="Musicas"><p>Centimilimental</p><img src="musics/spot.png" class="spotify"></div></a>
-        <a href="https://www.youtube.com/watch?v=ygy8Lyv4uXA&ab_channel=%E6%B6%99arakida" style="text-decoration: none; color: whitesmoke">
-          <div class="Musica"><img src="musics/sei la.jpg" class="Musicas"><p>Fuyunohanashi</p><img src="musics/spot.png" class="spotify"></div></a>
+    <div class="PlayMusicas">
+      <div class="c">
+        <div>
+        <a href="https://www.youtube.com/watch?v=cn3Ao7lprkQ&ab_channel=YANA" style="text-decoration: none; color: whitesmoke" target="_blank"class="Musica" >
+          <img src="musics/capa rosa.jpg" class="Musicas"><p>Youru ga Akeru</p><img src="musics/spot.png" class="spotify"></a>
+        </div>
+        <div>
+        <a class="Musica" href="https://www.youtube.com/watch?v=UXjoipMzBcc&ab_channel=%E6%B6%99arakida" style="text-decoration: none; color: whitesmoke" target="_blank">
+          <img src="musics/fuyohanashi.jpg" class="Musicas"><p>Centimilimental</p><img src="musics/spot.png" class="spotify"></a>
+        </div>
+        <div>
+        <a class="Musica" href="https://www.youtube.com/watch?v=ygy8Lyv4uXA&ab_channel=%E6%B6%99arakida" style="text-decoration: none; color: whitesmoke" target="_blank">
+          <img src="musics/sei la.jpg" class="Musicas"><p>Fuyunohanashi</p><img src="musics/spot.png" class="spotify"></a>
+        </div>
       </div>
+    </div>
     </div>
 
       
@@ -66,13 +78,13 @@
       </div>
         <div class="video_info" style="display: flex;
         justify-content: center; @media (max-width: 913px){width:400}">
-          <iframe width="500" height="400" src="https://www.youtube.com/embed/sIXOWUw7134" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="500" height="400" src="https://www.youtube.com/embed/sIXOWUw7134" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-right: 4%; margin-left: 4%;"></iframe>
         </div>
       </div>
   </div>
 
   
-  <h3> Para Acessar o forum de um personagem especifico é só clicar em uma das imagens a seguir</h3>
+  <h3> Para acessar o forum de um personagem específico apenas clique em uma das imagens:</h3>
   
   <div class="Acesso">
     <a href="#foto_mafuyu"><img src="img/acesso_mafuyu.jpg" class="acesso_m"></a>
@@ -129,6 +141,9 @@
 
   
 
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="../slick/slick.min.js"></script>
 
 </body>
 
